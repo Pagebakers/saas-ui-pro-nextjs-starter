@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^18.0.9"
+  },
+  "peerDependencies": {
+    "@chakra-ui/react": "^2.1.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@saas-ui/react": "^1.0.0-rc.1",
+    "framer-motion": "^6.3.4",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "main": "index.tsx"
+}
