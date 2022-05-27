@@ -1,6 +1,6 @@
 import { Heading, Text } from '@chakra-ui/react'
 
-import { Menu, MenuItem, MenuList, MenuButton, Button } from '@saas-ui/react'
+import { Menu, MenuItem, MenuList, MenuButton } from '@saas-ui/react'
 
 import { AppShell, Sidebar, SidebarMenu } from '@saas-ui/pro'
 
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       }
     >
       <Heading>Saas UI Pro</Heading>
-      <Text>PNPM - Next.js - Starter</Text>
+      <Text>Yarn - Next.js - Starter</Text>
       <Menu>
         <MenuButton>Test</MenuButton>
         <MenuList>
