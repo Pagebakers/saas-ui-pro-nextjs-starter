@@ -12,5 +12,11 @@
     "apps/*",
     "packages/*"
   ],
+  "devDependencies": {
+    "@types/react-table": "^7.7.9"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.19"
+  },
   "packageManager": "yarn@3.2.1"
 }

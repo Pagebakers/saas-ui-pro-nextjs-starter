@@ -2132,7 +2132,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17, @types/react@npm:^17.0.15, @types/react@npm:^17.0.19":
+"@types/react-table@npm:^7.7.9":
+  version: 7.7.12
+  resolution: "@types/react-table@npm:7.7.12"
+  dependencies:
+    "@types/react": "*"
+  checksum: 287ea68e75b56c2e70e6d6491cd172348c7302b032789047eb2dca1b25b240684e48a60f58140575828b790f95724b9f3ec4d3adce82fc1c05d994def1449009
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^17.0.19":
   version: 17.0.45
   resolution: "@types/react@npm:17.0.45"
   dependencies:
@@ -4443,6 +4452,8 @@ __metadata:
 "saas-ui-pro-pnpm-next-starter@workspace:.":
   version: 0.0.0-use.local
   resolution: "saas-ui-pro-pnpm-next-starter@workspace:."
+  dependencies:
+    "@types/react-table": ^7.7.9
   languageName: unknown
   linkType: soft
 
