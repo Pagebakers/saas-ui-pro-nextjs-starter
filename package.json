@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "yarn workspace nextjs-app dev",
+    "build": "yarn workspace nextjs-app build",
+    "start": "yarn workspace nextjs-app start",
+    "lint": "yarn workspace nextjs-app lint"
   },
   "workspaces": [
     "apps/*",
